@@ -1,9 +1,6 @@
 services:
     twig.extension.photo:
         class: L3\Bundle\PhotoBundle\Photo
-        #arguments: ["https://apps-php-test.univ-lille3.fr/~ppelisset/Lille3Photo/web/image/","https://apps-php-test.univ-lille3.fr/~ppelisset/Lille3Photo/web/token/add"]
-        #arguments: ["https://apps-php-test.univ-lille3.fr/~mhetru/Lille3Photo/web/image/","https://apps-php-test.univ-lille3.fr/~mhetru/Lille3Photo/web/token/add"]
-        #arguments: ["https://refphotos-test.univ-lille3.fr/image/","https://refphotos-test.univ-lille3.fr/token/add"]
         arguments: ["%photo_image_url%","%photo_token_url%"]
         public: true
         tags:
