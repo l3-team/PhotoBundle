@@ -1,0 +1,27 @@
+{
+    "name": "l3/photo-bundle",
+    "type": "symfony-bundle",
+    "description": "PhotoBundle client for RefPhoto Symfony2",
+    "homepage": "https://github.com/l3-team/PhotoBundle",
+    "license": "(c) Copyright Universite Lille3 - Charles de Gaulle",
+    "authors": [
+        {
+            "name": "Pierre Pélisset",
+            "email": "pierre.pelisset@univ-lille3.fr"
+        },
+	{
+            "name": "Mathieu Hétru",
+            "email": "mathieu.hetru@univ-lille3.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "twig/extensions": "~1.0",
+	"symfony/symfony": "~3,<=3.2"
+    },
+    "autoload": {
+        "psr-4": { "L3\\Bundle\\PhotoBundle\\": "" }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
