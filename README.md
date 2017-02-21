@@ -1,6 +1,11 @@
 PhotoBundle Symfony client for RefPhoto
 ---
 
+Pre-requisites
+---
+* have a RefPhoto instance installed (https://github.com/l3-team/RefPhoto)
+* have a Symfony 2/3 application
+
 Configuration
 ---
 
@@ -20,6 +25,9 @@ twig:
     globals:
         photo_enabled: '%photo_enabled%'
 ```
+
+How to use
+---
 
 In your twig views you can use it like this :
 ```
