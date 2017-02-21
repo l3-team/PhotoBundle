@@ -1,10 +1,48 @@
-PhotoBundle Symfony client for RefPhoto
+Symfony 2/3 PhotoBundle Symfony client for RefPhoto
 ---
+
+This bundle is a client for the referencial Photo (https://github.com/l3-team/RefPhoto). 
+
 
 Pre-requisites
 ---
 * have a RefPhoto instance installed (https://github.com/l3-team/RefPhoto)
 * have a Symfony 2/3 application
+
+Installation
+---
+Install the Bundle by adding this line to your composer.json :
+```
+"l3/photo-bundle": "~1.0"
+```
+Then 
+ ```
+$ composer update
+ ```
+ 
+Next, add the Bundle in AppKernel.php
+
+```
+<?php
+// app/AppKernel.php
+
+// ...
+class AppKernel extends Kernel
+{
+    public function registerBundles()
+    {
+        $bundles = array(
+            // ...
+
+            new L3\Bundle\PhotoBundle\L3PhotoBundle(),
+        );
+
+        // ...
+    }
+
+    // ...
+}
+```
 
 Configuration
 ---
