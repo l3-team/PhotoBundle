@@ -1,7 +1,7 @@
 {
     "name": "l3/photo-bundle",
     "type": "symfony-bundle",
-    "description": "PhotoBundle client for RefPhoto Symfony2",
+    "description": "PhotoBundle client for RefPhoto Symfony2/Symfony3",
     "homepage": "https://github.com/l3-team/PhotoBundle",
     "license": "(c) Copyright Universite Lille3 - Charles de Gaulle",
     "authors": [
