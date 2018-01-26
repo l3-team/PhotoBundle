@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "description": "PhotoBundle client for RefPhoto Symfony2/Symfony3",
     "homepage": "https://github.com/l3-team/PhotoBundle",
-    "license": "(c) Copyright Universite Lille3 - Charles de Gaulle",
+    "license": "LGPL-3.0-or-later",
     "authors": [
         {
             "name": "Pierre Pélisset",
