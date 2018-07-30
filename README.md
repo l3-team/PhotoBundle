@@ -1,4 +1,4 @@
-Symfony 2/3 PhotoBundle Symfony client for RefPhoto
+Symfony 2/ Symfony3 / Symfony4 PhotoBundle Symfony client for RefPhoto
 ---
 
 This bundle is a client for the referencial Photo (https://github.com/l3-team/RefPhoto). 
