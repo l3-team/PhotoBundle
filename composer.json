@@ -1,7 +1,7 @@
 {
     "name": "l3/photo-bundle",
     "type": "symfony-bundle",
-    "description": "PhotoBundle client for RefPhoto Symfony2/Symfony3",
+    "description": "PhotoBundle client for RefPhoto Symfony2/Symfony3/Symfony4",
     "homepage": "https://github.com/l3-team/PhotoBundle",
     "license": "LGPL-3.0-or-later",
     "authors": [
@@ -11,7 +11,7 @@
         },
 	{
             "name": "Mathieu Hétru",
-            "email": "mathieu.hetru@univ-lille3.fr"
+            "email": "mathieu.hetru@univ-lille.fr"
         }
     ],
     "require": {
