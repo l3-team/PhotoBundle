@@ -1,13 +1,13 @@
 Symfony 2/ Symfony3 / Symfony4 PhotoBundle Symfony client for RefPhoto
 ---
 
-This bundle is a client for the referencial Photo (https://github.com/l3-team/RefPhoto). 
+This bundle is a client for the referencial Photo (https://github.com/l3-team/RefPhoto) or (https://github.com/l3-team/RefPhotoJ2EE) 
 
 
 Pre-requisites
 ---
-* have a RefPhoto instance installed (https://github.com/l3-team/RefPhoto)
-* have a Symfony 2/3 application
+* have a RefPhoto instance installed (https://github.com/l3-team/RefPhoto) or (https://github.com/l3-team/RefPhotoJ2EE)
+* have a Symfony 2 or Symfony3 or Symfony4 application
 
 Installation
 ---
