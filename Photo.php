@@ -84,7 +84,7 @@ class Photo extends \Twig_Extension {
 
 		//$this->tokens[$uid] = file_get_contents('http://apps-php-test.univ-lille3.fr/~ppelisset/Lille3Photo/web/token/add/' . $uid);
 
-                $this->tokens[$uid] = file_get_contents($this->cheminReptoken . $uid);
+                $this->tokens[$uid] = file_get_contents($this->cheminReptoken . "/" . $uid);
                 
 		return $this->tokens[$uid];
 	}

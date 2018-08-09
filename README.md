@@ -67,7 +67,7 @@ For Symfony2 and Symfony3, add and adapt the 3 variables for configuration in th
 parameters:
     photo_enabled: true
     photo_image_url: 'https://refphotos.univ.fr/image/'
-    photo_token_url: 'https://refphotos.univ.fr/token/add/'
+    photo_token_url: 'https://refphotos.univ.fr/token/add'
 ```
 
 Next add the variable **%photo_enabled%** in **app/config/config.yml** under **twig globals** :
