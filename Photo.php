@@ -8,12 +8,6 @@ class Photo extends \Twig_Extension {
         private $cheminRepimage = "";
         private $cheminReptoken = "";
         
-        /*public function __construct($cheminRepimage,$cheminReptoken)
-        {
-          $this->cheminRepimage = $cheminRepimage;
-          $this->cheminReptoken = $cheminReptoken;
-        }*/ 
-        
         public function __construct($cheminRepimage,$cheminReptoken)
         {
           $this->cheminRepimage = $cheminRepimage;
@@ -24,10 +18,22 @@ class Photo extends \Twig_Extension {
         {
             return $this->cheminRepimage;
         }        
+
+        public function setCheminRepimage($cheminRepimage)
+        {
+            $this->cheminRepimage = $cheminRepimage;
+            return $this;
+        }
         
         public function getCheminReptoken()
         {
             return $this->cheminReptoken;
+        }
+        
+        public function setCheminReptoken($cheminReptoken)
+        {
+            $this->cheminReptoken = $cheminReptoken;
+            return $this;
         }        
         
         
