@@ -82,9 +82,9 @@ twig:
         photo_enabled: '%photo_enabled%'
 ```
 
-For Symfony4, add and adapt the 3 variables for configuration in the **.env.dist** and **.env** :
+For Symfony4, add and adapt the 3 variables for configuration in the **.env.local** and **.env** :
 ```
-# .env.dist
+# .env.local
 # .env
 
 ###> l3/photo-bundle ###
