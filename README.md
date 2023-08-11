@@ -11,14 +11,10 @@ Pre-requisites
 
 Installation
 ---
-Install the Bundle by adding this line to your composer.json :
+Install the Bundle with this command :
 ```
-"l3/photo-bundle": "~1.0"
+composer require l3/photo-bundle:~1.0
 ```
-Then 
- ```
-$ composer update
- ```
  
 For Symfony 2 and Symfony3, add the Bundle in AppKernel.php
 
