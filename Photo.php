@@ -1,7 +1,10 @@
 <?php
 namespace L3\Bundle\PhotoBundle;
 
-class Photo extends \Twig_Extension {
+use Twig\Extension\AbstractExtension;
+use Twig\TwigFunction;
+
+class Photo extends AbstractExtension {
 	private $tokens = array();
 	private $uidToQuery = array();
 
@@ -39,7 +42,7 @@ class Photo extends \Twig_Extension {
         
 	public function getFunctions() {
 		return array(
-			new \Twig_SimpleFunction('photo', array($this, 'photo'))
+			new TwigFunction('photo', array($this, 'photo'))
 		);
 	}
 
