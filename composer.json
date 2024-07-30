@@ -1,7 +1,7 @@
 {
     "name": "l3/photo-bundle",
     "type": "symfony-bundle",
-    "description": "PhotoBundle client for RefPhoto Symfony2/Symfony3/Symfony4",
+    "description": "PhotoBundle client for RefPhoto Symfony2/Symfony3/Symfony4/Symfony5/Symfony6/Symfony7",
     "homepage": "https://github.com/l3-team/PhotoBundle",
     "license": "LGPL-3.0-or-later",
     "authors": [
