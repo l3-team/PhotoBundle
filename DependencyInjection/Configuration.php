@@ -15,10 +15,10 @@ class Configuration implements ConfigurationInterface
     /**
      * {@inheritdoc}
      */
-    public function getConfigTreeBuilder()
+    public function getConfigTreeBuilder() : TreeBuilder
     {
-        $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('l3_photo');
+        $treeBuilder = new TreeBuilder('l3_photo');
+        $rootNode = $treeBuilder->getRootNode();
 
         
         // Here you should define the parameters that are allowed to
