@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": ">=7.2.5",
-        "twig/twig": "~1.0 || ~2.0",
+        "twig/twig": "~2.0 || ~3.0",
 	"symfony/framework-bundle": "~5.0"
     },
     "autoload": {
