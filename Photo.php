@@ -2,6 +2,7 @@
 namespace L3\Bundle\PhotoBundle;
 
 use Twig\Extension\AbstractExtension;
+use Twig\TwigFunction;
 
 class Photo extends AbstractExtension {
 	private $tokens = array();
@@ -41,7 +42,7 @@ class Photo extends AbstractExtension {
         
 	public function getFunctions() {
 		return array(
-			new \Twig_SimpleFunction('photo', array($this, 'photo'))
+			new TwigFunction('photo', array($this, 'photo'))
 		);
 	}
 
